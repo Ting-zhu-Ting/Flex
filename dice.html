@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>骰子</title>
+    <style>
+       * {
+          box-sizing: border-box;
+        }
+        body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height:500px;
+          /* border:1px solid #ccc; */
+        }
+        .box{
+          width: 100px;
+          height:100px;
+          margin:16px;
+          padding:3px;
+          background-color:white;
+          box-shadow: inset 0 5px rgb(240, 231, 215),inset 0 -5px #bbb,inset 5px 0 #d7d7d7,inset -5px 0 #d7d7d7;
+        }
+        .box .cir {
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          margin: 4px;
+          background-color: #333;
+          box-shadow: inset 0 3px #111, inset 0 -3px #555;
+        }
+        .one {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .two,
+        .three,
+        .four,
+        .five,
+        .six{
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .two .cir:nth-of-type(2){
+          align-self: flex-end;
+        }
+
+        .three .cir:nth-of-type(2){
+          align-self: center;
+        }
+        .three .cir:nth-of-type(3){
+          align-self: flex-end;
+        }
+
+        .four .column{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+
+
+        .five .column{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .five .column:nth-of-type(2){
+          align-self: center;
+        }
+
+        .six .column{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+    
+       
+    
+        
+      </style>
+</head>
+<body>
+      <div class="one box">
+          <div class="cir"></div>
+      </div>
+  
+  
+      <div class="two box">
+          <div class="cir"></div>
+          <div class="cir"></div>
+      </div>
+  
+  
+      <div class="three box">
+          <div class="cir"></div>
+          <div class="cir"></div>
+          <div class="cir"></div>
+      </div>
+  
+      <div class="four box">
+        <div class="column">
+            <div class="cir"></div>
+            <div class="cir"></div>
+        </div>
+        <div class="column">
+            <div class="cir"></div>
+            <div class="cir"></div>
+        </div>
+      </div>
+  
+      <div class="five box">
+        <div class="column">
+            <div class="cir"></div>
+            <div class="cir"></div>
+        </div>
+        <div class="column">
+            <div class="cir"></div>
+        </div>
+        <div class="column">
+            <div class="cir"></div>
+            <div class="cir"></div>
+        </div>
+      </div>
+  
+      <div class="six box">
+        <div class="column">
+            <div class="cir"></div>
+            <div class="cir"></div>
+            <div class="cir"></div>
+        </div>
+        <div class="column">
+            <div class="cir"></div>
+            <div class="cir"></div>
+            <div class="cir"></div>
+        </div>
+      </div>
+
+   
+
+   
+    
+   
+</body>
+</html>

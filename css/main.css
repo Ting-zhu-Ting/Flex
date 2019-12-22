@@ -1,0 +1,291 @@
+body,p,h1{
+    margin:0;
+}
+body{
+    background-color:rgb(245, 239, 239);
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+/* 头部导航 */
+header{
+    width:1100px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header .message{
+    width:350px;
+    display: flex; 
+    justify-content: space-between;   
+}
+header .message h1{
+    font-size:45px;
+    font-family: "宋体";
+    margin-top:25px;
+    color:rgb(247, 99, 46);
+}
+header .message span{
+    margin-right:5px;
+}
+header .message div{
+    font-size:14px;
+    margin-top:20px;
+    color:rgb(138, 135, 135);
+}
+header .message .line{
+    color:rgb(219, 217, 217);
+    width:2px;
+    height:40px;
+    margin-top:30px;
+    margin-left:20px;
+    background:linear-gradient(to top,rgb(219, 217, 217),rgb(138, 135, 135),rgb(219, 217, 217))
+}
+header .message p{
+    margin-top:7px;
+}
+header ul{
+    width:600px;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;   
+}
+header ul li{
+    /* width:100px; */
+    font-size:14px;
+    padding:20px 5px;
+}
+header ul li:nth-of-type(1){
+    background-color:rgb(253, 87, 27);
+}
+
+
+/*  轮播图 */
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(to right,rgb(163, 236, 163),rgb(199, 199, 122),rgb(207, 130, 130));
+}
+
+.image .image-img{
+    display: flex;
+    justify-content: center;
+    margin-top:80px;
+    margin-bottom:20px;
+    color:rgb(241, 225, 225);
+}
+.image .image-img div{
+    width:250px;
+}
+.image .image-img div p:nth-of-type(1){
+    font-size:22px;
+    margin:10px 0;
+}
+.image .image-img .more{
+    color:rgb(241, 225, 225);
+    border:1px solid #fff;
+    background-color:transparent;
+    padding:5px 15px;
+    margin:10px 0;
+    
+}
+.image ul{
+    display: flex;
+    justify-content: center;
+}
+.image ul li{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background:rgb(182, 181, 181); 
+    margin:3px;
+}
+.image ul .active{
+    background-color:#fff;
+}
+
+/* 战略合作部分 */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0;
+}
+section .title{
+    font-size:18px;
+    margin:20px 0 5px;
+}
+section .goal{
+    font-size:12px;
+    color:rgb(161, 158, 158);
+    margin-bottom:10px;
+}
+section div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:1000px;
+}
+section div img{
+    margin-top:5px;
+}
+
+/*  我们的优势部分*/
+.advantages{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px 0;
+}
+.advantages .advantages-mes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom:80px;
+}
+.advantages  .advantages-mes .advantages-our{
+    font-size:18px;
+    color:#fff;
+}
+.advantages .advantages-mes .advantages-aim{
+    font-size:12px;
+    color:#fff;
+    margin-top:10px;
+}
+
+.advantages .advantages-bot{
+    width:1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages .advantages-image{
+    width:130px;
+    height:130px;
+    background-image: url(../image/img01.png);
+    z-index:1;
+    margin-top:-65px;
+}
+.advantages .image2{
+    background-position: 0 292px;
+}
+.advantages .image3{
+    background-position: 0 -324px;
+}
+.advantages .advantages-con{
+    width:300px;
+    background-color:rgb(170, 165, 165);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0;
+}
+.advantages .advantages-con .design{
+    color:orangered;
+    font-size:14px;
+    margin-top:25px
+}
+.advantages .advantages-con .content{
+    font-size:12px;
+    line-height:20px;
+    padding:20px;
+}
+
+/* 成功案例部分 */
+#content{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#content .content-mes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+}
+#content .content-mes .content-our{
+    font-size:18px;
+    margin:20px 0 5px;
+}
+#content .content-mes .content-aim{
+    font-size:12px;
+    color:rgb(161, 158, 158);
+    margin:8px 0;
+}
+#content .content-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+    background-color:#333;
+}
+#content .content-nav li{
+    color:#fff;
+    padding:10px 60px;
+}
+#content .content-nav .first{
+    background-color:orangered;
+}
+#content .content-img{
+    width:1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#content img{
+    margin-bottom:30px;
+}
+
+/* footer部分 */
+footer{
+    background-color:#ccc;
+}
+footer .footer-content{
+    width:1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+footer .footer-content .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:20px;
+    margin-left:15px;
+}
+footer .footer .footer-title{
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+footer .footer .footer-news{
+    display: flex;
+    justify-content: space-between;
+    color:rgb(148, 146, 146);
+    font-size:12px;
+    line-height: 25px;
+}
+footer .footer .footer-news .time{
+    margin-left:30px;
+    margin-right:15px;
+}
+footer .footer .btn{
+    border:1px solid #ccc;
+    border-radius: 5px;
+    width:120px;
+    background-color:rgb(243, 24, 24);
+    color:#fff;
+    padding:8px 5px; 
+    margin:10px 0 30px;   
+}

@@ -1,0 +1,157 @@
+body,p,h1{
+    margin:0;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+/* 头部导航 */
+#headNav{
+    width:1100px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#headNav .message{
+    width:350px;
+    display: flex; 
+    justify-content: space-between;   
+}
+#headNav .message h1{
+    font-size:45px;
+    font-family: "宋体";
+    margin-top:25px;
+    color:rgb(247, 99, 46);
+}
+#headNav .message span{
+    margin-right:5px;
+}
+#headNav .message div{
+    font-size:14px;
+    margin-top:20px;
+    color:rgb(138, 135, 135);
+}
+#headNav .message .line{
+    color:rgb(219, 217, 217);
+    width:2px;
+    height:40px;
+    margin-top:30px;
+    margin-left:20px;
+    background:linear-gradient(to top,rgb(219, 217, 217),rgb(138, 135, 135),rgb(219, 217, 217))
+}
+#headNav .message p{
+    margin-top:7px;
+}
+#headNav ul{
+    width:600px;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;   
+}
+#headNav ul li{
+    font-size:14px;
+    padding:20px 5px;
+}
+#headNav ul li:nth-of-type(2){
+    background-color:rgb(253, 87, 27);
+}
+
+/* 成功案例部分 */
+/* 关于我们部分 */
+#bag{
+    background-color:rgb(253, 87, 27);
+    padding:30px 0;
+    color:#fff;
+}
+#bag .success{
+    width:1100px;
+    margin:0 auto;
+}
+#bag .success .title{
+    font-size:20px;
+}
+#bag .success .title span{
+    font-size:16px;
+    color:rgb(228, 227, 227);
+    margin-left:5px;
+}
+#bag .success .title .linn{
+    font-size:20px;
+}
+#bag .success .position{
+    padding-top:10px;
+}
+#bag .success .position i{
+    font-style: normal;
+    color:rgb(228, 227, 227);
+}
+#bag .success .position{
+    font-size:14px;
+    color:rgb(228, 227, 227);
+}
+#bag .success .position span{
+    color:#fff;
+}
+
+/*服务行业导航  */
+/*公司介绍导航  */
+#nav{
+    background-color:rgb(241, 238, 238);
+    padding:10px 0;
+}
+#nav ul{
+    width:1100px;
+    margin:0 auto;
+    display: flex;
+    justify-content: flex-end;
+    /* justify-content: space-between; */
+}
+#nav ul li{
+    color:rgb(151, 149, 149);
+    font-size:12px;
+    margin-left:40px;
+}
+
+/* 主体内容部分 */
+#content{
+    width:1100px;
+    margin:0 auto;
+    margin-top:20px;
+}
+#content .content-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#content img{
+    margin-bottom:30px;
+}
+
+/*  底部信息 */
+#footer{
+    background-color:rgb(20, 20, 20);
+    color:#fff;
+    font-size:12px;
+}
+#footer .footer-message{
+    width:1100px;
+    margin:0 auto;
+}
+#footer .footer-message ul{
+    width:550px;
+    margin:0 auto;
+    padding-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer-message .mes{
+    width:450px;
+    margin:0 auto;
+    padding:10px 0;
+}
+#footer .footer-message .mess{
+    width:550px;
+    margin:0 auto;
+}

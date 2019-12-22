@@ -1,0 +1,45 @@
+@import 'success.css';
+/* 关于我们信息介绍部分 */
+#about{
+    width:1100px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+#about .about-mes{
+    width:700px;
+    font-size:14px;
+    border-bottom:1px solid rgb(241, 239, 239);
+    line-height: 30px;
+}
+#about .about-us{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+/* 企业使命部分 */
+#enterprise{
+    width:1100px;
+    margin:30px auto;
+    border-bottom:1px solid rgb(241, 239, 239);
+}
+#enterprise p{
+    width:250px;
+    margin:20px auto;
+}
+#enterprise .enterprise-img{
+    display: flex;
+    justify-content: space-between;
+}
+#enterprise ul{
+    display: flex;
+    justify-content: space-around;
+    padding:20px  0;
+}
+
+/* 主体内容部分 */
+#content p{
+    width:350px;
+    margin:10px  auto 20px;
+}
